@@ -1,13 +1,13 @@
 <template>
-  <earth-by-picture/>
+  <earth/>
 </template>
 
 <script>
-import EarthByPicture from './components/EarthByPicture.vue'
+import Earth from './components/Earth.vue'
 export default {
   name: "App",
   components: {
-    EarthByPicture
+    Earth
   }
 };
 </script>
